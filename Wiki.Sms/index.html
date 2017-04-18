@@ -1,0 +1,132 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sms Sender</title>
+
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="dist/css/sms.css" rel="stylesheet">
+  </head>
+
+  <body>
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">SMS Sender v 1.0</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Настройки</a></li>
+            <li><a href="#">Профиль</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+
+                <nav class="navbar navbar-default sidebar" role="navigation">
+            <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>      
+            </div>
+            <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li ><a href="#">Домой<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>     
+                <li ><a href="#">Добавить<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-envelope"></span></a></li>                   
+                <li class="active"><a href="#">История<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-th-list"></span></a></li>        
+                <li ><a href="#">Контакты<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-tags"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">       
+          <h2 class="sub-header">История сообщений</h2>
+          <div class="table-responsive">
+          <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Поиск...">
+          </form>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Номер телефона</th>
+                  <th>Текст</th>
+                  <th>Дата отправки</th>
+                  <th>Дата получения</th>
+                  <th>Дата создания</th>
+                  <th>Исходящие/Входящие</th>
+                  <th>Статус</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>+79117495435</td>
+                  <td>Сообщение...</td>
+                  <td>2017-01-21 12:32</td>
+                  <td>2017-01-21 12:32</td>
+                  <td>2017-01-21 12:32</td>
+                  <td>Исходящие</td>
+                  <td>Ожидает отправки</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>+79117495435</td>
+                  <td>Сообщение...</td>
+                  <td>2017-01-21 12:32</td>
+                  <td>2017-01-21 12:32</td>
+                  <td>2017-01-21 12:32</td>
+                  <td>Исходящие</td>
+                  <td>Отправлено</td>
+                </tr>
+              <tr>
+                  <td>3</td>
+                  <td>+79217495435</td>
+                  <td>Сообщение2...</td>
+                  <td>2017-01-22 12:32</td>
+                  <td>2017-01-21 12:32</td>
+                  <td>2017-01-21 12:32</td>
+                  <td>Исходящие</td>
+                  <td>Отправлено</td>
+                </tr>
+               <tr>
+                  <td>4</td>
+                  <td>+79517495435</td>
+                  <td>Сообщение3...</td>
+                  <td>2017-01-21 12:32</td>
+                  <td>2017-01-21 12:32</td>
+                  <td>2017-01-21 12:32</td>
+                  <td>Исходящие</td>
+                  <td>Отправлено</td>
+                </tr>          
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="dist/js/jquery.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="dist/js/sms.min.js"></script>
+  </body>
+</html>
